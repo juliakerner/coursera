@@ -1,0 +1,264 @@
+body {
+font-size: 16px;
+background-color: #B22222;
+font-family:'Oxygen', sans-serif;
+}
+
+/** Header **/
+
+#header-nav {
+background-color: #FFF8DC;
+border-radius: 0;
+border: 0;
+
+
+}
+
+.navbar-brand {
+ padding-top: 25px;	
+}
+
+.navbar-brand h1 { /*restaurant name*/
+ font-family: 'Lora', serif;
+ color: #331a00;
+ font-size: 1.5em;
+ text-transform: uppercase;
+ font-weight: bold;
+ text-shadow: 1px 1px 1px #222;
+ margin-top: 0;
+ margin-bottom: 0;
+ line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+ text-decoration: none;	
+}
+
+#nav-list {
+ margin-top: 10px;
+}
+
+#nav-list a {
+ color: #8B0000;
+ text-align: center;
+ display: none;	
+}
+
+#nav-list a:hover {
+ background-color: #FFFAF0;	
+}
+
+#nav-list a span {
+ font-size: 1.8em;	
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+ border: 1px solid #B22222;	
+}
+
+.navbar-header button.navbar-toggle {
+ clear: both;
+ margin-top: -30px;	
+}
+/* END HEADER */
+
+
+/* HOME PAGE */
+
+#menu-categories-title {
+	color: #FFF8DC;
+	margin-bottom: 25px;
+	font-size: 2em;
+}
+
+ #chicken-tile, #beef-tile, #sushi-tile {
+ 	width: 100%;
+ 	margin-bottom: 15px;
+ 	position: relative;
+ 	border: 2px solid #6c1414;
+ 	background-color: #FFF8DC;
+ }
+ 
+
+ #chicken-tile span, #beef-tile span, #sushi-tile span {
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ 	width: 100%;
+ 	text-align: center;
+ 	font-size: 1.4em;
+ 	text-transform: uppercase;
+ 	background-color: #000;
+ 	color: #FFF8DC;
+ 	opacity: .8;
+ }
+
+ .menu-item-details {
+	font-size: 1.2em;
+	font-style: italic;
+	color: #331a00;
+	padding-top: 50px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 25px;
+
+#chicken-tile a, #beef-tile a, #sushi-tile a {
+	
+} 
+
+/* END HOME PAGE */
+
+
+
+
+
+
+
+
+/* MENU CATEGORIES PAGE */
+
+#main-content {
+	 color: #FFF8DC;
+}
+.category-tile {
+	position: relative;
+	border: 2px solid #6c1414;
+	overflow: auto;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+.category-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
+#menu-categories-title + div {
+	margin-bottom: 50px;
+}
+
+/**** END MENU CATEGORIES PAGE ****/
+
+/** SINGLE CATEGORY PAGE **/
+.menu-item-tile {
+	margin-bottom: 25px;
+}
+.menu-item-tile hr {
+	width: 80%;
+}
+.menu-item-tile .menu-item-price {
+	font-size: 1.1em;
+	text-align: right;
+	margin-top: -15px;
+	margin-left: -15px; 
+}
+
+
+}
+/**** END SINGLE ITEM CATEGORY ****/
+
+
+
+/**** Large devices only ****/
+@media (min-width: 1200px){
+  .container .jumbotron {
+  	background: url('./images/Interior_1200.jpg') no-repeat;
+  	height: 675px;
+  }
+}
+
+/**** Medium devices only ****/
+@media (min-width: 992px) and (max-width: 1199px) {
+/* Header */
+}
+
+.container .jumbotron {
+  	background: url('./images/Interior_992.jpg') no-repeat;
+  	height: 558px;
+  }
+}
+
+/**** Small devices only ****/
+@media (min-width: 768px) and (max-width: 991px) {
+.container .jumbotron {
+  	background: url('./images/Interior_768.jpg') no-repeat;
+  	height: 432px;
+  } 
+}
+
+/**** Extra small devices only ****/
+@media (max-width: 767px) {
+/* Header */
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 { /*Restaurant name*/
+	    padding-top: 15px;
+	    font-size: 5vw; /* 1vw = 1% of viewport width */
+	}
+	
+
+	#collapsable-nav a { /* Collapsed nav menu glyph */
+		font-size: 1.2em;
+	}	
+	
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	
+	/* End Header */
+
+    /* Home Page */
+
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
+	}
+
+	#menu-tile, #specials-tile {
+		width: 360px;
+		margin: 0 auto 15px;
+	}
+
+	.menu-item-tile .menu-item-price {
+		text-align: center;
+	}
+	.menu-item-description {
+		text-align: center;
+	}
+
+}
+
+/**** Super extra small devices Only ;)****/
+
+@media (max-width: 479px) {
+
+	.navbar-brand h1 { /*Restaurant name*/
+	    padding-top: 5px;
+	    font-size: 6vw; /* 1vw = 1% of viewport width */
+	}
+	#chicken-tile, #beef-tile, #sushi-tile {
+		width: 280px;
+		margin: 0 auto 15px;
+	}
+
+	.col-xxs-12 {
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
+	}
+}
