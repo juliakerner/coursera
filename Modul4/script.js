@@ -101,13 +101,13 @@ else {
 // console.log(a());
 // console.log(b());
 
-// For loop
-// var sum = 0;
-// for (var i = 0; i < 10; i++) {
-// 	console.log(i);
-// 	sum = sum +i;
-// }
-// console.log("sum of 0 through 9 is: " + sum);
+For loop
+var sum = 0;
+for (var i = 0; i < 10; i++) {
+	console.log(i);
+	sum = sum +i;
+}
+console.log("sum of 0 through 9 is: " + sum);
 
 // // *** Lesson44 - setting default value
 // function orderChickenWith(sideDish) {
