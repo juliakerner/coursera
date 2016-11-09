@@ -5,7 +5,7 @@
 // console.log( document instanceof HTMLDocument);
 
 
-// *** Lesson 54
+// *** Lessons 54-55
 
 // // Unobstrusive event binding
 
@@ -59,7 +59,5 @@ document.addEventListener("DOMContentLoaded",
 	 			}
 	 		}
 	 	);	   
-
-
   }
 	);

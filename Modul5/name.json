@@ -1,0 +1,6 @@
+{
+	"firstName": "Julia",
+	"lastName": "Kerner",
+	"likesChineseFood": true,  // or false 
+	"numberOfDisplays": 2
+}
