@@ -74,7 +74,7 @@ var switchMenuToActive = function (){
 
  	// On first load, show home view
  	showLoading("#main-content");
- 	@ajaxUtils.sendGetRequest (
+ 	$ajaxUtils.sendGetRequest (
  		homeHtml,
  		function (responseText) {
  			document.querySelector("#main-content")
